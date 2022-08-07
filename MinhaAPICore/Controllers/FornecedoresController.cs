@@ -100,6 +100,7 @@ namespace MinhaAPICore.Controllers
         private bool FornecedorExists(Guid id)
         {
             return _context.Fornecedores.Any(e => e.Id == id);
+            //teste
         }
     }
 }
